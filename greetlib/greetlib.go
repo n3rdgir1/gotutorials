@@ -1,5 +1,5 @@
 package greetlib
-
+//           key type -\/  \/- value type
 var greetings = map[string]string{
   "English": "Hello",
   "Spanish": "Hola",
