@@ -29,4 +29,10 @@ Building:
 * if not, designate the relative path to the file
 * if not, designate the relative path to the dir and designate the override output name
   $ go build -o someothername ./hello
+
+
+Libraries:
+* Package name cannot be "main", since that is reserved for programs
+* convention is package name is the same as the dir
+* can be imported
 */
