@@ -20,7 +20,7 @@ import (
 
 func main() {
   // local variables go here
-  lang := "English" // `:=` initialization and assignment at the same time
+  lang := "English" // `:=` initialization and assignment at the same time, can only be used inside functions
 
   if len(os.Args) >= 2 {
     lang = os.Args[1]
