@@ -14,8 +14,14 @@ import (
   to go pull it in like a true lazy bastard :thumbsup:
 */
 
+// global variables go here, get shared with everything in the package if it has a lowercase level
+// if you want variable to be available to EVERYONE!!!!, start it with a capital letter
+//above rules apply to method names, etc, as well
+
 func main() {
+  // local variables go here
   lang := "English" // `:=` initialization and assignment at the same time
+
   if len(os.Args) >= 2 {
     lang = os.Args[1]
   }
