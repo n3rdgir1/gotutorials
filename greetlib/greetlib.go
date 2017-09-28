@@ -2,7 +2,8 @@ package greetlib
 
 var greetings = map[string]string{
   "English": "Hello",
-  "Spanish": "Hola" }
+  "Spanish": "Hola",
+}
 
 func GreetIn(lang string) string {
   if greeting, ok := greetings[lang]; ok {
