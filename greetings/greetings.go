@@ -15,7 +15,7 @@ import (
 */
 
 func main() {
-  lang := "English"
+  lang := "English" // `:=` initialization and assignment at the same time
   if len(os.Args) >= 2 {
     lang = os.Args[1]
   }
