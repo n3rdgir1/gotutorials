@@ -29,3 +29,8 @@ func main() {
 }
 
 // _ is a thing in go, necessary since you can't have unused variables (compiler enforced)
+
+/*
+ if you don't consciously handle the error, nothing will. no try, catch.
+ If there are multiple return values, the last one might be an error, might also be `nil`. WRITE YOUR DOCS!! (godocs)
+ */

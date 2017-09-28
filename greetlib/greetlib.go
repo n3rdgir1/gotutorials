@@ -5,6 +5,7 @@ var greetings = map[string]string{
   "Spanish": "Hola",
 }
 
+//                        (string, error) { // if you want to return an error
 func GreetIn(lang string) string {
   if greeting, ok := greetings[lang]; ok {
     return greeting
