@@ -17,4 +17,16 @@ pwd: ~/go/src/foo/bar/bazz, import_path: foo/bar/bazz, default_name: bazz
 
 override default name:
   import ba "foo/bar/bazz" => now it's ba
+
+other way to import:
+import (
+  "fmt"
+  "os"
+)
+
+Building:
+* run in the directory
+* if not, designate the relative path to the file
+* if not, designate the relative path to the dir and designate the override output name
+  $ go build -o someothername ./hello
 */
