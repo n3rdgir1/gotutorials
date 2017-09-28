@@ -27,3 +27,5 @@ func main() {
   }
   fmt.Println(greetlib.GreetIn(lang))
 }
+
+// _ is a thing in go, necessary since you can't have unused variables (compiler enforced)
